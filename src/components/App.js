@@ -14,7 +14,7 @@ function App() {
     <div>
       <NavBar />
       <Switch>
-        <Route path="/movies">
+        <Route path="/movies" component>
           <MoviesPage movies={movies} />
         </Route>
         <Route exact path="/">
